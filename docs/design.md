@@ -1,50 +1,44 @@
 # Profile design
 
-## Purpose
+## Purpose and approved content direction
 
-Help visiting engineers quickly understand the technologies used and the engineering
-areas that may start a useful conversation. The content hierarchy is technical focus,
-stack by role, engineering interests, then a quiet personal footnote.
+Help visiting engineers understand the main stack and development interests quickly.
+The owner explicitly selected TypeScript, React, React Native, Expo, Cloudflare, and
+Node.js. Keep those six technologies central; do not broaden the stack from inferred
+workspace usage. Do not position the profile around API type safety or feature a
+particular software project.
 
-Do not repeat the account name as branding. Do not feature an individual software
-project. Personal interests must not be the headline or the main visual subject.
+Do not repeat the account name as branding. Personal interests are a quiet footer,
+not the headline or main visual subject. Avoid skill ratings, unsupported achievements,
+employers, private repository names, locations, or usage metrics.
 
-## Content grounding
+## Structure and visual decisions
 
-Technology names were checked against the current workspace package manifests on
-2026-10-26. The published profile contains only technology names and broad engineering
-topics, not private repository names, application architecture, employers, locations,
-usage metrics, or claims of expertise. Framework versions are intentionally omitted.
-The Web row uses vinext because it is present in the inspected manifests.
+Order: compact technical header, introduction, six technology badges, role mapping,
+engineering interests, personal footnote. The header communicates Web/Mobile/Cloud;
+the interests cover cross-platform development, UI/developer experience, and delivery.
 
-Official documentation links provide context for readers who want to explore the tools.
-The interest bullets describe technical themes; no skill ratings or achievements are
-claimed. The footer retains the two personal interests explicitly supplied by the owner.
+Retain the requested cute/pop quality through cream, lilac, mint, and soft pink,
+rounded badges, and a small editor layout. Keep the detailed content as selectable
+Markdown/HTML. Official-site links let engineers explore unfamiliar technologies.
 
-## Visual decisions
+The desktop header is `assets/web-mobile-header.svg`. At viewport widths of 600 px
+or less, `picture` selects `assets/web-mobile-header-compact.svg`, which omits the
+small code panel for legibility. Local badge icon attribution is in
+`assets/stack/NOTICE.md`. No dynamic third-party images, counters, animation, trackers,
+or scheduled maintenance are needed.
 
-Retain the requested cute/pop quality through cream, lilac, mint, and soft pink, with
-rounded technology badges and a compact editor layout. Keep the title technical and
-short so the stack is visible early. Use selectable Markdown for the detailed stack and
-interest bullets rather than putting the entire profile in an image.
-
-The desktop header is `assets/engineering-header.svg`. Below 600 px, `picture` selects
-`assets/engineering-header-mobile.svg`, omitting the small editor panel to keep the
-headline legible. Six local badges highlight the main tools; the table explains the
-broader stack by layer. Icon source attribution is in `assets/stack/NOTICE.md`.
-No third-party dynamic images, counters, animation, trackers, or scheduled jobs are used.
-
-The profile repository remains the sole pinned item to avoid GitHub's automatic
-popular-repository fallback. Its description summarizes the technical focus.
+The profile repository is the sole pin, preventing the automatic popular-repository
+fallback from featuring another project. Its description names the six selected tools.
 
 ## Acceptance
 
-- The live Overview leads with technical focus and readable technology badges.
-- No custom name banner, large hobby feature, or individual project promotion remains.
-- All technology images load; labels and the table fit desktop and narrow viewports.
-- Technology links point to their official sites or official repositories.
-- Engineering topics and role grouping are consistent with the inspected dependencies.
-- Remote README and SVG files match the local committed state.
+- The live Overview centers the six user-selected technologies.
+- No custom account-name banner, prominent hobby feature, project promotion, or API
+  type-safety positioning remains.
+- Every image loads, and the stack table and labels fit narrow viewports.
+- Links resolve to official technology documentation or sites.
+- Remote README and SVG blobs match local committed files.
 - Temporary browser viewport overrides are reset after inspection.
 
 Runtime self-review evidence is kept locally in `.agent-artifacts/`, excluded from Git.

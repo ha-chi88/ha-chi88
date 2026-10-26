@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">TypeScript, from UI to cloud.</title>
-  <desc id="desc">Web, mobile, API, and cloud engineering, in a playful pastel editor layout.</desc>
+  <desc id="desc">Web, mobile, and cloud development, in a playful pastel editor layout.</desc>
   <rect width="1200" height="300" rx="22" fill="#fff5df"/>
   <g font-family="'Trebuchet MS', Arial, sans-serif" fill="#40364d">
     <text x="44" y="45" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="2.5">BUILD / TEST / SHIP</text>
@@ -25,9 +25,9 @@
   <text x="1128" y="59" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#78687d">stack.ts</text>
   <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#53465f">
     <text x="768" y="104"><tspan fill="#9364ae">const</tspan> stack = {</text>
-    <text x="789" y="132">web: <tspan fill="#427d6a">'React + vinext'</tspan>,</text>
-    <text x="789" y="160">mobile: <tspan fill="#427d6a">'Expo'</tspan>,</text>
-    <text x="789" y="188">api: <tspan fill="#427d6a">'Effect + oRPC'</tspan>,</text>
+    <text x="789" y="132">web: <tspan fill="#427d6a">'React'</tspan>,</text>
+    <text x="789" y="160">mobile: <tspan fill="#427d6a">'React Native + Expo'</tspan>,</text>
+    <text x="789" y="188">server: <tspan fill="#427d6a">'Node.js'</tspan>,</text>
     <text x="789" y="216">cloud: <tspan fill="#427d6a">'Cloudflare'</tspan>,</text>
     <text x="768" y="244">};</text>
   </g>

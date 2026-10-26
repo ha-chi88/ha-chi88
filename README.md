@@ -1,17 +1,17 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/engineering-header-mobile.svg">
-  <img src="./assets/engineering-header.svg" alt="TypeScript, from UI to cloud. Web・Mobile・API・Cloud をつなぐ開発。" width="100%">
+  <source media="(max-width: 600px)" srcset="./assets/web-mobile-header-compact.svg">
+  <img src="./assets/web-mobile-header.svg" alt="TypeScript, from UI to cloud. Web・モバイルから公開まで。" width="100%">
 </picture>
 
-TypeScript を軸に、Web・モバイルから API・インフラまで開発しています。<br>
-UI の使い心地と、変更に強い設計。どちらも大切に。
+TypeScript を中心に、React / React Native / Expo で Web・モバイルを開発しています。<br>
+Node.js と Cloudflare を使って、実装から公開まで。
 
 <p>
   <a href="https://www.typescriptlang.org/"><img src="./assets/stack/typescript.svg" alt="TypeScript" height="36"></a>
   <a href="https://react.dev/"><img src="./assets/stack/react.svg" alt="React" height="36"></a>
+  <a href="https://reactnative.dev/"><img src="./assets/stack/react-native.svg" alt="React Native" height="36"></a>
   <a href="https://expo.dev/"><img src="./assets/stack/expo.svg" alt="Expo" height="36"></a>
-  <a href="https://effect.website/"><img src="./assets/stack/effect.svg" alt="Effect" height="36"></a>
-  <a href="https://orpc.dev/"><img src="./assets/stack/orpc.svg" alt="oRPC" height="36"></a>
+  <a href="https://nodejs.org/en"><img src="./assets/stack/nodejs.svg" alt="Node.js" height="36"></a>
   <a href="https://developers.cloudflare.com/workers/"><img src="./assets/stack/cloudflare.svg" alt="Cloudflare" height="36"></a>
 </p>
 
@@ -19,18 +19,17 @@ UI の使い心地と、変更に強い設計。どちらも大切に。
 
 | Layer | Tools |
 | :--- | :--- |
-| **Web** | [React](https://react.dev/) · [vinext](https://github.com/cloudflare/vinext) · [Tailwind CSS](https://tailwindcss.com/) |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) |
+| **Web** | [React](https://react.dev/) |
 | **Mobile** | [React Native](https://reactnative.dev/) · [Expo](https://expo.dev/) |
-| **API** | [Effect](https://effect.website/) · [oRPC](https://orpc.dev/) · [Hono](https://hono.dev/) · [Better Auth](https://better-auth.com/) |
-| **Data** | [Drizzle ORM](https://orm.drizzle.team/) · [Turso](https://turso.tech/) |
-| **Cloud** | [Cloudflare Workers](https://developers.cloudflare.com/workers/) · [Alchemy](https://alchemy.run/) |
-| **Tooling** | [Vite](https://vite.dev/) · [pnpm](https://pnpm.io/) · [Vitest](https://vitest.dev/) · [Playwright](https://playwright.dev/) |
+| **Runtime** | [Node.js](https://nodejs.org/en) |
+| **Cloud** | [Cloudflare](https://developers.cloudflare.com/workers/) |
 
 ## ✦ Engineering interests
 
-- **Type-safe APIs** — Effect によるスキーマ・エラー設計と、oRPC による型付き API。
-- **Web × Mobile** — React と Expo を中心に、共通化とプラットフォームごとの使い心地を両立。
-- **Developer experience** — モノレポ、再利用できる開発基盤、テストとデプロイの自動化。
+- **Web × Mobile** — Web とアプリを、共通化とそれぞれの操作感の両方から考える。
+- **UI & DX** — 使いやすい画面と、開発を続けやすいコンポーネント設計。
+- **Build & Ship** — Node.js / Cloudflare を使って、つくったものを届けるところまで。
 
 ---
 

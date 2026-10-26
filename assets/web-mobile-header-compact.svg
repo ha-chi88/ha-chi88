@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
   <title id="title">TypeScript, from UI to cloud.</title>
-  <desc id="desc">Web, mobile, and cloud engineering in a compact pastel layout.</desc>
+  <desc id="desc">Web, mobile, and cloud development in a compact pastel layout.</desc>
   <rect width="600" height="300" rx="22" fill="#fff5df"/>
   <g font-family="'Trebuchet MS', Arial, sans-serif" fill="#40364d">
     <text x="30" y="44" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17" letter-spacing="2">BUILD / TEST / SHIP</text>
