@@ -9,7 +9,7 @@
 
 TypeScript で、Web と React Native をつなぐ道具をつくっています。
 
-`TypeScript` &nbsp; `React Native` &nbsp; `Standard Schema`
+<code>TypeScript</code> &nbsp; <code>React&nbsp;Native</code> &nbsp; <code>Standard&nbsp;Schema</code>
 
 <br>
 
