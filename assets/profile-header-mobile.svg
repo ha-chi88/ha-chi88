@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="440" viewBox="0 0 600 440" role="img" aria-labelledby="title desc">
+  <title id="title">88 / ha-chi88 — Building bridges.</title>
+  <desc id="desc">A compact typographic header in charcoal, ivory, and warm orange. Web × Native.</desc>
+  <rect width="600" height="440" rx="16" fill="#171a1b"/>
+  <path d="M32 72H568M32 364H568" stroke="#3b3d3b"/>
+  <circle cx="39" cy="41" r="6" fill="#f5a36b"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" letter-spacing="1.5" fill="#d5d5cc">
+    <text x="59" y="48">HA-CHI88</text>
+    <text x="568" y="48" text-anchor="end">WEB × NATIVE</text>
+  </g>
+  <text x="563" y="177" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="700" letter-spacing="-6" fill="#f3f0e5">88</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" letter-spacing="-3">
+    <text x="30" y="247" fill="#f3f0e5">Building</text>
+    <text x="30" y="325" fill="#f5a36b">bridges.</text>
+  </g>
+  <text x="32" y="405" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" letter-spacing="1" fill="#bdbeb5">SMALL TOOLS. CLEAR CONTRACTS.</text>
+</svg>

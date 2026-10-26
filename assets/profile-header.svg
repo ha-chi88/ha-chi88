@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">88 / ha-chi88 — Building bridges.</title>
+  <desc id="desc">An editorial typographic header in charcoal, ivory, and warm orange. Web × Native.</desc>
+  <rect width="1200" height="400" rx="16" fill="#171a1b"/>
+  <path d="M48 72H1152M48 330H1152" stroke="#3b3d3b"/>
+  <circle cx="55" cy="42" r="6" fill="#f5a36b"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" letter-spacing="2" fill="#d5d5cc">
+    <text x="77" y="48">HA-CHI88</text>
+    <text x="1152" y="48" text-anchor="end">WEB × NATIVE</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-3">
+    <text x="46" y="180" fill="#f3f0e5">Building</text>
+    <text x="46" y="263" fill="#f5a36b">bridges.</text>
+  </g>
+  <path d="M743 110V292" stroke="#3b3d3b"/>
+  <text x="1135" y="283" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="240" font-weight="700" letter-spacing="-16" fill="#f3f0e5">88</text>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="1" fill="#bdbeb5">
+    <text x="48" y="368">TYPESCRIPT / REACT NATIVE / STANDARD SCHEMA</text>
+    <text x="1152" y="368" text-anchor="end" fill="#f5a36b">CODE WITH CLARITY ↗</text>
+  </g>
+</svg>
