@@ -5,4 +5,7 @@
   <a href="https://expo.dev/"><img src="./assets/stack/expo.svg" alt="Expo" height="36"></a>
   <a href="https://nodejs.org/en"><img src="./assets/stack/nodejs.svg" alt="Node.js" height="36"></a>
   <a href="https://developers.cloudflare.com/workers/"><img src="./assets/stack/cloudflare.svg" alt="Cloudflare" height="36"></a>
+  <a href="https://hono.dev/"><img src="./assets/stack/hono.svg" alt="Hono" height="36"></a>
+  <a href="https://code.claude.com/docs/en/overview"><img src="./assets/stack/claude-code.svg" alt="Claude Code" height="36"></a>
+  <a href="https://github.com/openai/codex"><img src="./assets/stack/codex.svg" alt="Codex" height="36"></a>
 </p>
