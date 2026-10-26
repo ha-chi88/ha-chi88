@@ -1,4 +1,8 @@
 <p>
+  <img src="./assets/header.78208cbd.png" alt="海辺の風景と旅の小さな持ちもの" width="100%">
+</p>
+
+<p>
   <a href="https://www.typescriptlang.org/"><img src="./assets/stack/typescript.svg" alt="TypeScript" height="36"></a>
   <a href="https://react.dev/"><img src="./assets/stack/react.svg" alt="React" height="36"></a>
   <a href="https://reactnative.dev/"><img src="./assets/stack/react-native.svg" alt="React Native" height="36"></a>

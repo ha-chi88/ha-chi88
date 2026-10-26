@@ -8,8 +8,10 @@ These represent strengths, not an exhaustive list of capabilities.
 The header direction is stylish, cute, and independent of technology. It must have
 no wording, username, numbers, code, technology logos, or skill labels. Takoyaki,
 guitar, and travel are personal reference material and should be subtle motifs,
-not a large illustrated list of hobbies. Actual image candidates are reviewed before
-adoption; keep the existing README free of placeholders in the meantime.
+not a large illustrated list of hobbies. The owner selected and approved candidate A,
+an illustrated coastal scene, on 2026-10-26. The approved image is preserved byte for
+byte as `assets/header.78208cbd.png`, with a content-addressed filename. It scales to
+the full README width while retaining its 3:1 aspect ratio.
 
 Do not reintroduce biography paragraphs, a technical table, interest sections, a
 personal footer, or project promotion. Approved header imagery sits above the badges.
