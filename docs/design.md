@@ -1,8 +1,9 @@
 # Profile presentation
 
-The owner selected these nine technology/tool badges: TypeScript, React, React Native,
-Expo, Node.js, Cloudflare, Hono, Claude Code, and Codex. The original six SVGs, order,
-and display height remain unchanged. New badges use the same rounded pastel styling.
+The owner selected these ten technology/tool badges: TypeScript, React, Next.js,
+React Native, Expo, Node.js, Cloudflare, Hono, Claude Code, and Codex. The original six
+SVGs, relative order, and display height remain unchanged. New badges use the same
+rounded pastel styling, with Next.js placed beside React.
 These represent strengths, not an exhaustive list of capabilities.
 
 The header direction is stylish, cute, and independent of technology. It must have
