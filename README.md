@@ -11,7 +11,7 @@
   <a href="https://nodejs.org/en"><img src="./assets/stack/nodejs.svg" alt="Node.js" height="36"></a>
   <a href="https://developers.cloudflare.com/workers/"><img src="./assets/stack/cloudflare.svg" alt="Cloudflare" height="36"></a>
   <a href="https://hono.dev/"><img src="./assets/stack/hono.svg" alt="Hono" height="36"></a>
-  <a href="https://www.postgresql.org/"><img src="./assets/stack/postgresql.svg" alt="PostgreSQL" height="36"></a>
+  <a href="https://www.postgresql.org/"><img src="./assets/stack/postgresql-solid.svg" alt="PostgreSQL" height="36"></a>
   <a href="https://github.com/tursodatabase/libsql"><img src="./assets/stack/libsql-hexagon.svg" alt="libSQL" height="36"></a>
   <a href="https://code.claude.com/docs/en/overview"><img src="./assets/stack/claude-code.svg" alt="Claude Code" height="36"></a>
   <a href="https://github.com/openai/codex"><img src="./assets/stack/codex.svg" alt="Codex" height="36"></a>
