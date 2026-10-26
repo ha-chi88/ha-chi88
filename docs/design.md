@@ -1,50 +1,41 @@
 # Profile design
 
-## Purpose and content
+## Brief
 
-Make the GitHub Overview recognizable as 88 / ha-chi88, explain the public work,
-and let visitors reach the code and documentation quickly.
+The owner requested a cute, pop personal profile and explicitly shared two interests:
+takoyaki and guitar. Present 88 / ha-chi88 and those interests in a friendly way.
+The profile should not feature a software project or imply a technical specialization.
 
-Content is grounded in the public `ha-chi88/safe-webview-bridge` README and GitHub
-profile inspected on 2026-10-26. The project describes TypeScript messaging between
-Web and React Native WebView, Standard Schema validation, and separate platform
-imports. Do not add employers, locations, contact details, private projects, or
-unverified skill claims.
+## Visual direction
 
-## Visual decisions
+Use cream, coral pink, mint, and lavender; rounded type, small cheerful symbols,
+and tilted sticker-like panels with offset outlines. The layout uses typography,
+standard emoji, and simple UI geometry. It needs no external image services, scripts,
+trackers, generated illustrations, or scheduled maintenance.
 
-The existing profile has a coastal sunset avatar and GitHub's native repository and
-contribution sections. Retain that context. The warm orange accent relates to the
-sunset; charcoal and ivory keep the typography distinct in both GitHub themes.
-This direction is an implementation choice, not recorded user approval or a user study.
+The banner's color values are defined in `assets/hello-88.svg` and its compact variant.
+System emoji and font appearance can differ by platform. Essential personal copy
+is repeated as selectable Markdown/HTML, and the banner has useful alternative text.
+No animation or color-only information is used.
 
-Use a compact editorial layout: typographic introduction, one featured project,
-and direct navigation. A metrics-heavy layout would duplicate the native contribution
-section and put counters ahead of the actual work. No third-party image services,
-generated illustrations, scripts, trackers, animated counters, or maintenance workflows
-are needed. The SVGs implement the header's typography and layout as self-contained
-vectors because GitHub sanitizes README CSS.
+The desktop header emphasizes the name between the two interests. At viewport widths
+of 600 px or less, `picture` selects `assets/hello-88-mobile.svg`, which puts the
+interests underneath the name. New asset paths distinguish this revision from the
+previous design in GitHub's image caches.
 
-`assets/profile-header.svg` owns the desktop layout; the compact variant is selected
-at a viewport width of 600 px or below through a native `picture` element. Essential
-project details and links remain selectable HTML/Markdown text outside the header.
-The image has alternative text; no information relies on motion or color alone.
-
-## Visitor path
-
-Overview → identify the developer and focus → read the featured library summary →
-open its README, source, or security model. The footer links to all repositories.
-Native GitHub navigation handles returning to Overview.
+The README is intentionally short: banner, personal greeting, and welcome.
+GitHub's native contribution history remains below. Pin the profile repository itself
+so the Overview does not fall back to automatically featuring other repositories.
 
 ## Acceptance
 
-- Public `ha-chi88/ha-chi88` repository with a root `README.md`, visible on Overview.
-- Header loads from this repository, without clipping or external image dependencies.
-- Japanese body text and the compact header remain readable at a narrow viewport.
-- Featured project links resolve to the public project and the named sections/files.
-- The public project is pinned; no private repository is published or featured.
-- Final rendered-page evidence and validation notes are kept locally in
-  `.agent-artifacts/`, excluded from Git.
+- The live Overview shows the new banner and greeting.
+- The only stated personal interests are the user-provided takoyaki and guitar.
+- No project feature, technical stack, related slogan, or project link remains in the
+  README, banner, repository description, or pinned section.
+- The desktop and compact images load, and narrow layouts have no horizontal overflow.
+- The native avatar and account settings remain as they were.
+- The public repository's root README and assets match the local committed files.
 
-GitHub's own Markdown typography, focus styles, and navigation remain authoritative;
-this change does not claim a full accessibility audit of GitHub.
+Runtime evidence is stored locally in `.agent-artifacts/` and excluded from Git.
+This implementation review is not a user study or a full GitHub accessibility audit.
