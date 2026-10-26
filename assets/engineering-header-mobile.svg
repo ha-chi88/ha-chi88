@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+  <title id="title">TypeScript, from UI to cloud.</title>
+  <desc id="desc">Web, mobile, and cloud engineering in a compact pastel layout.</desc>
+  <rect width="600" height="300" rx="22" fill="#fff5df"/>
+  <g font-family="'Trebuchet MS', Arial, sans-serif" fill="#40364d">
+    <text x="30" y="44" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17" letter-spacing="2">BUILD / TEST / SHIP</text>
+    <text x="28" y="130" font-size="67" font-weight="700" letter-spacing="-2">TypeScript,</text>
+    <rect x="31" y="144" width="343" height="10" rx="5" fill="#eea9bd"/>
+    <text x="29" y="210" font-size="54" font-weight="700" letter-spacing="-1.5">from UI to cloud.</text>
+    <text x="533" y="66" font-size="37" fill="#ad8fc7">✦</text>
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" font-weight="600">
+      <rect x="31" y="244" width="90" height="33" rx="16.5" fill="#d9f0ed"/>
+      <text x="76" y="267" text-anchor="middle">WEB</text>
+      <rect x="134" y="244" width="116" height="33" rx="16.5" fill="#e8e0f7"/>
+      <text x="192" y="267" text-anchor="middle">MOBILE</text>
+      <rect x="263" y="244" width="108" height="33" rx="16.5" fill="#f9dfeb"/>
+      <text x="317" y="267" text-anchor="middle">CLOUD</text>
+    </g>
+  </g>
+</svg>
